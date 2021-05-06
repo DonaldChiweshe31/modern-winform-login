@@ -1,0 +1,324 @@
+﻿
+namespace ModernLoginFORM
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picuser = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.picpass = new System.Windows.Forms.PictureBox();
+            this.picemail = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.picfb = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictw = new System.Windows.Forms.PictureBox();
+            this.picgp = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picpass)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picemail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picfb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictw)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picgp)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(147, 76);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 77);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // picuser
+            // 
+            this.picuser.Image = ((System.Drawing.Image)(resources.GetObject("picuser.Image")));
+            this.picuser.Location = new System.Drawing.Point(24, 207);
+            this.picuser.Name = "picuser";
+            this.picuser.Size = new System.Drawing.Size(33, 19);
+            this.picuser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picuser.TabIndex = 1;
+            this.picuser.TabStop = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
+            this.textBox1.Location = new System.Drawing.Point(87, 202);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(250, 26);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.TabStop = false;
+            this.textBox1.Text = "Username";
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(87, 234);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(250, 1);
+            this.panel1.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(87, 296);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(250, 1);
+            this.panel2.TabIndex = 5;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox2.ForeColor = System.Drawing.Color.Black;
+            this.textBox2.Location = new System.Drawing.Point(87, 264);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(250, 26);
+            this.textBox2.TabIndex = 4;
+            this.textBox2.TabStop = false;
+            this.textBox2.Text = "Password";
+            this.textBox2.Click += new System.EventHandler(this.textBox2_Click);
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // picpass
+            // 
+            this.picpass.Image = ((System.Drawing.Image)(resources.GetObject("picpass.Image")));
+            this.picpass.Location = new System.Drawing.Point(24, 271);
+            this.picpass.Name = "picpass";
+            this.picpass.Size = new System.Drawing.Size(33, 19);
+            this.picpass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picpass.TabIndex = 6;
+            this.picpass.TabStop = false;
+            // 
+            // picemail
+            // 
+            this.picemail.Image = ((System.Drawing.Image)(resources.GetObject("picemail.Image")));
+            this.picemail.Location = new System.Drawing.Point(24, 334);
+            this.picemail.Name = "picemail";
+            this.picemail.Size = new System.Drawing.Size(33, 19);
+            this.picemail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picemail.TabIndex = 7;
+            this.picemail.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(87, 366);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(250, 1);
+            this.panel3.TabIndex = 9;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox3.ForeColor = System.Drawing.Color.Black;
+            this.textBox3.Location = new System.Drawing.Point(87, 334);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(250, 26);
+            this.textBox3.TabIndex = 8;
+            this.textBox3.TabStop = false;
+            this.textBox3.Text = "Email";
+            this.textBox3.Click += new System.EventHandler(this.textBox3_Click);
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.button1.Location = new System.Drawing.Point(100, 392);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(216, 53);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Sign In";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // picfb
+            // 
+            this.picfb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picfb.Image = ((System.Drawing.Image)(resources.GetObject("picfb.Image")));
+            this.picfb.Location = new System.Drawing.Point(100, 557);
+            this.picfb.Name = "picfb";
+            this.picfb.Size = new System.Drawing.Size(48, 48);
+            this.picfb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picfb.TabIndex = 11;
+            this.picfb.TabStop = false;
+            this.picfb.Click += new System.EventHandler(this.picfb_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(100, 451);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(216, 53);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Register";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // pictw
+            // 
+            this.pictw.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictw.Image = ((System.Drawing.Image)(resources.GetObject("pictw.Image")));
+            this.pictw.Location = new System.Drawing.Point(268, 557);
+            this.pictw.Name = "pictw";
+            this.pictw.Size = new System.Drawing.Size(48, 48);
+            this.pictw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictw.TabIndex = 13;
+            this.pictw.TabStop = false;
+            // 
+            // picgp
+            // 
+            this.picgp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picgp.Image = ((System.Drawing.Image)(resources.GetObject("picgp.Image")));
+            this.picgp.Location = new System.Drawing.Point(178, 557);
+            this.picgp.Name = "picgp";
+            this.picgp.Size = new System.Drawing.Size(48, 48);
+            this.picgp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picgp.TabIndex = 14;
+            this.picgp.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(161, 522);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(61, 16);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "login with";
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 10;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(336, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(14, 15);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.ClientSize = new System.Drawing.Size(376, 617);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.picgp);
+            this.Controls.Add(this.pictw);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.picfb);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.picemail);
+            this.Controls.Add(this.picpass);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.picuser);
+            this.Controls.Add(this.pictureBox1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picuser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picpass)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picemail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picfb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictw)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picgp)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picuser;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.PictureBox picpass;
+        private System.Windows.Forms.PictureBox picemail;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox picfb;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictw;
+        private System.Windows.Forms.PictureBox picgp;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label2;
+    }
+}
+
